@@ -1,0 +1,13 @@
+:root{
+  /* red / black cinematic scheme */
+  --accent: #9d0208;
+  --accent-2: #6b0004;
+  --muted: #f4e9e9;
+}
+
+body {
+  --background-image: url('https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Horror/forest.jpg');
+  background-image: none; 
+}
+
+.neon { color: var(--muted); }

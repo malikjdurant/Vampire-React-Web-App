@@ -1,5 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
 const { useState, useEffect, useRef } = React;
 
 const clientID = "t-FQWYk2PUt13LidWIblzu7SNd9HVOQsK3QA7Lg1Mg4";

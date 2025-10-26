@@ -13,9 +13,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- React mount point -->
   <div id="root"></div>
 
-  <!-- bundle -->
-  <script src="index.pack.js"></script>
+  <!-- React + ReactDOM (v16.13.1) -->
+  <script src="https://unpkg.com/react@16.13.1/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js"></script>
+
+  <!-- Babel to use JSX directly -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- JS bundle -->
+  <script type="text/babel" src="index.pack.js"></script>
 </body>
 </html>
